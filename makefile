@@ -1,3 +1,3 @@
 .PHONY: up
 up:
-	docker compose up -d  && cd webApp && mix phx.server
+	docker compose up -d  && cd app && mix phx.server
